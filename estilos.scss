@@ -49,16 +49,22 @@ body {
         border-bottom: 1px solid rgba(153, 153, 153, 0.383);
 
         &-img {
+            width: 200px;
+            height: 200px;
+            // display: block;
+            // width: 100%;
             border: 5px solid white;
             border-radius: 50%;
             margin-top: calc(-48px - 5px);
             background-color: white;
+            // filter: invert(100%);
             // object-fit: cover;
         }
 
         &-title {
             margin-top: 2rem;
             font-size: 1.8rem;
+            text-transform: capitalize;
 
             span {
                 color: var(--dark-gray);
